@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="second_screen.css" />
+    <title>second_screen</title>
+</head>
+
+
+<body>
+    <div class="overall_container">
+
+
+        <!-- Movie images -->
+        <div class="movie_container">
+            <div class="minecraft">
+                <img src="./images/minecraft.png">
+            </div>
+            <div class="shudder">
+                <img src="./images/shudder.png">
+            </div>
+            <div class="sinister">
+                <img src="./images/sinister.png">
+            </div>
+            <div class="terrifier">
+                <img src="./images/terrifier.png">
+            </div>
+            <div class="unicorn">
+                <img src="./images/unicorn.png">
+            </div>
+        </div>
+
+        <!-- welcome tickets text -->
+        <div class="welcome_prompt">
+            <h2 class="welcome_text">Welcome! Choose the number of each ticket type below </h2>
+        </div>
+    
+
+        <!-- ticket section begins-->
+        <div class="child_user">
+            <p class="child_txt">Child Tickets:</p>
+            <input class="child_input" placeholder="Amount of Tickets">
+        </div>
+
+
+        <!-- Adult and Senior section -->
+        <div class="adult_user">
+            <p class="adult_txt">Adult Tickets:</p>
+            <input class="adult_input" placeholder="Amount of Tickets">
+        </div>
+
+        <div class="senior_user">
+            <p class="senior_txt">Senior Tickets:</p>
+            <input class="senior_input" placeholder="Amount of Tickets">
+        </div>
+
+
+        <!-- submit button -->
+        <div class="sub_button">
+            <button class="submit_button">Submit</button>
+        </div>
+
+
+        <!-- Hidden total (after submit is clicked then will appear)-->
+        <div class="ticket_summary"  style="display: none;"> 
+            <p class="extra">Order Details</p>
+            <p class="child_result"></p>
+            <p class="adult_result"></p>
+            <p class="senior_result"></p>
+            <p class="total_result"></p>
+        </div>
+
+    </div>
+
+    <!-- LINK TO JAVASCRIPT CODE -->
+    <script src="second_screen.js"></script>
+</body>
+
+</html>
+
+
